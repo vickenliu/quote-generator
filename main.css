@@ -1,0 +1,63 @@
+*{
+	box-sizing:border-box;
+}
+body {
+	background-color: red;
+}
+#wrapper{
+	display: block;
+	width: 50vw;
+	height: 50vh;
+	margin: 0px auto;
+	position: relative;
+	top:50vh;
+	transform:translateY(-25vh);
+	background-color: white;
+	border-radius: 10px;
+}
+#content{
+	display: table;
+	width: 80%;
+	margin: 0% auto;
+	height: 80%;
+	text-align: center;
+}
+#content p{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 4vh;
+	color: red;
+}
+#buttons{
+	display: block;
+	width: 80%;
+	height: 20%;
+	margin: 0% auto;
+}
+.button, .button a, button.button:hover, button.button:focus, button.button:visited, button:focus {
+	position: relative;
+	border-radius: 10px;
+	background-color: red;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 10px;
+	border:0px;
+	outline:0;
+}
+.button.tw {
+	float: left;
+}
+.button.qu {
+	float: right;
+}
+#popup{
+	width: 60vw;
+	height: 50vh;
+	position: absolute;
+	z-index: 100;
+	top:50vh;
+	left: 20vw;
+	transform:translateY(-25vh);
+	background-color: black;
+}
